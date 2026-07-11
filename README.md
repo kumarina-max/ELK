@@ -8,6 +8,9 @@
 ![Cluster health](images/task1.png)
 
 ## Задание 2. Kibana
+Установила и запустила Kibana. В интерфейсе Dev Tools выполнила запрос `GET /_cluster/health?pretty`:
+
+![Kibana Dev Tools](images/task2.png)
 
 ## Задание 3. Logstash
 
