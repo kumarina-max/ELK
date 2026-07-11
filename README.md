@@ -26,3 +26,10 @@
 ![Nginx логи через Filebeat](images/task4.png)
 
 ## Задание 5*. Доставка данных
+Настроила сбор логов **Apache HTTP Server**  через связку **Filebeat → Logstash → Elasticsearch**.  
+Лог-файл Apache парсится Logstash с помощью `grok` и раскладывается на поля (`http.request.method`, `http.response.status_code`, `url.original` и др.).  
+Логи Apache отображаются в Kibana (индекс `apache-access-*`):
+
+![Логи Apache через Filebeat+Logstash](images/task5.png)
+
+**Какой сервис:** Apache HTTP Server.  
