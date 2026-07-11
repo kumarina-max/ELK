@@ -18,6 +18,11 @@
 Логи Nginx отображаются в Kibana (индекс `nginx-access-*`):
 
 ![Nginx логи через Logstash](images/task3.png)
+
 ## Задание 4.  Filebeat
+Переключила сбор логов Nginx на Filebeat (минуя Logstash).  
+Логи Nginx отправлены через Filebeat и видны в Kibana (индекс `filebeat-nginx-*`):
+
+![Nginx логи через Filebeat](images/task4.png)
 
 ## Задание 5*. Доставка данных
