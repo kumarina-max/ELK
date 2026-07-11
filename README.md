@@ -5,7 +5,7 @@
 Установила и запустила Elasticsearch, изменила `cluster_name` на `my-cool-cluster`.  
 Выполнила запрос `curl -X GET 'localhost:9200/_cluster/health?pretty'` и получила ответ:
 
-![Cluster health](main/task1.png)
+![Cluster health](images/task1.png)
 
 ## Задание 2. Kibana
 
