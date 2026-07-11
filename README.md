@@ -14,6 +14,10 @@
 
 ## Задание 3. Logstash
 
+Настроила Logstash для сбора access-логов Nginx и отправки в Elasticsearch.  
+Логи Nginx отображаются в Kibana (индекс `nginx-access-*`):
+
+![Nginx логи через Logstash](images/task3.png)
 ## Задание 4.  Filebeat
 
 ## Задание 5*. Доставка данных
